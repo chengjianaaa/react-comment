@@ -1,6 +1,6 @@
 import React from 'react'
 import PureRenderMixin from 'react-addons-pure-render-mixin'
-
+import Header from '../../components/Header';
 class User extends React.Component {
     constructor(props, context) {
         super(props, context);
@@ -9,7 +9,7 @@ class User extends React.Component {
     render() {
         return (
             <div>
-                <h1>User</h1>
+                <Header title='用户中西' />
             </div>
         )
     }
