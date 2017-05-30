@@ -6,11 +6,10 @@ export function getOrderListData(username) {
     return result
 }
 
-export function postComment(id, comment, star) {
+export function postComment(id, comment) {
     const result = post('/api/submitComment', {
         id: id,
-        comment: comment,
-        star: star
+        comment: comment
     })
     return result
 }
