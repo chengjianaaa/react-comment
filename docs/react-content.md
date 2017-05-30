@@ -99,7 +99,7 @@ class ComponentName extends React.Component{
 
 ### 3. 组件的生命周期
 
-见文章
+[点击移步](https://github.com/helios741/react-comment/blob/master/docs/react-life.md)
 
 
 ### 4. 父子组件之间传递数据

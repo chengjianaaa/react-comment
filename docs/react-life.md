@@ -2,7 +2,7 @@
 
 react的组件的整个生命周期中，会根据`props`或者`state` 发生改变的，首先我们先看一下react生命周期的流程图(来源网络，触及到利益必删)：
 
-![](http://7rf34y.com2.z0.glb.qiniucdn.com/c/008581c5ca5cd9e344e8b92703e223ef)
+![](./zujian1.png)
 
 React为每个组件提供了生命周期的钩子函数去相应不同的时刻，组件的生命周期分为三个部分：
 1. 实例化
@@ -11,7 +11,7 @@ React为每个组件提供了生命周期的钩子函数去相应不同的时刻
 
 按照上面的三个周期分类流程图(来源网络)如下：
 
-![](http://static.codeceo.com/images/2016/03/ajs-life.png)
+![](ajs-life.png)
 
 ### 通过state进行改变：
 
