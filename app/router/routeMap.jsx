@@ -9,6 +9,7 @@ import User from '../containers/User'
 import Search from '../containers/Search'
 import Detail from '../containers/Detail'
 import NotFound from '../containers/404' 
+import Test from '../containers/Test' 
 
 export default class RouterMap extends React.Component {
 	render() {
@@ -17,6 +18,7 @@ export default class RouterMap extends React.Component {
 				<Route path='/' component={App}>
 					<IndexRoute component={Home} />
 					<Route path='/city' component={City} />
+					<Route path='/test' component={Test} />
                     <Route path='/Login(/:router)' component={Login}/>
 					<Route path='/user' component={User} />
 					<Route path='/search/:type(/:keyword)' component={Search} />
