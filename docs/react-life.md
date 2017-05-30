@@ -153,3 +153,7 @@ componentDidUpdate
 - 针对props和state的
 	1. componentWillMount 跟新组件之前要做的事情
 	2. componentDidUpdate 更新之后要做的事情
+
+### 生命周期的中的一个小优化
+
+我们知道在shouldComponentUpdate这个阶段，如果不进行操作的话，就会默认返回TRUE也就是，进行update，但是没有变化的时候我们是不用进行修改的，如果不行自己添加的话可以使用其他的轮子
