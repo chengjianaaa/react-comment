@@ -4,6 +4,7 @@
 
 - [做项目之前应该思考什么](https://github.com/helios741/react-comment/tree/master/docs)
 - [angular和react的浅谈](https://github.com/helios741/react-comment/blob/master/docs/angualr-react.md)
+- [redux和react-redux的介绍和实际开发](https://github.com/helios741/react-comment/blob/master/docs/understandRedux.md)
 - [react生命周期的总结](https://github.com/helios741/react-comment/blob/master/docs/react-life.md)
 - [react的基本知识](https://github.com/helios741/react-comment/blob/master/docs/react-content.md)
 

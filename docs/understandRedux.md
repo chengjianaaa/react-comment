@@ -149,6 +149,7 @@ function mapDispatchToProps(dispatch) {
     }
 }
 ```
+在本项目中也有使用上面的方法，[查看请戳](https://github.com/helios741/react-comment/blob/master/app/containers/City/index.jsx)
 
 目前为止无论是redux还是react-dedux都已经说完了，我自己也写了一个例子：[react-redux例子](https://github.com/helios741/react-comment/tree/master/app/containers/Test)。
 
